@@ -12,6 +12,6 @@ app.use("/api/products", productRouter);
 
 app.get('/', (req, res) => {
   res.json({ message: "Welcome to Inventory Management API" });
-  });
+});
 
-  export default app;
+export default app;
